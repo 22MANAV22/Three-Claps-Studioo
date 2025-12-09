@@ -53,7 +53,7 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-foreground/60 text-sm hover:text-accent-gold transition-colors cursor-pointer">
                 <Mail size={16} />
-                <span>threeclapssstudio@gmail.com</span>
+                <span>Info@threeclapsstudio.com</span>
               </div>
               <div className="flex items-center gap-3 text-foreground/60 text-sm hover:text-accent-gold transition-colors cursor-pointer">
                 <Phone size={16} />
