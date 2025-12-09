@@ -13,11 +13,11 @@ const teamMembers = [
   {
     name: "Harjit Kamboj",
     role: "Director",
-    image: "/placeholder.svg?key=webb1",
+    image: "/gallery/harjit.jpg",
   },
   {
     name: "Rajni Arora",
-    role: "Production Designer",
+    role: "Producer",
     image: "/gallery/rajni.png",
   },
   
