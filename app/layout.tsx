@@ -15,12 +15,12 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "LUMINA - Premium Film Production Studio | Cinematic Excellence",
+  title: "THREE CLAPS - Premium Film Production Studio | Cinematic Excellence",
   description:
     "Award-winning film production studio creating premium cinematic experiences. Feature films, documentaries, commercials, and innovative visual storytelling.",
   keywords: "film production, cinematography, premium studio, film director, visual effects",
   generator: "v0.app",
-  creator: "LUMINA Studios",
+  creator: "THREE CLAPS Studios",
   icons: {
     icon: [
       {
@@ -40,15 +40,15 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://lumina.studio",
-    title: "LUMINA - Premium Film Production Studio",
+    url: "https://threeclapsstudio.com",
+    title: "THREE CLAPS - Premium Film Production Studio",
     description: "Crafting cinematic excellence through premium production and storytelling",
     images: [
       {
         url: "/luxury-film-poster-dramatic.jpg",
         width: 1200,
         height: 630,
-        alt: "LUMINA Studios",
+        alt: "THREE CLAPS Studios",
       },
     ],
   },
