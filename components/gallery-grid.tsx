@@ -101,7 +101,7 @@ export function GalleryGrid() {
                     initial={{ scale: 1 }}
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.6, ease: "easeOut" }}
-                    className="relative w-full h-full"
+                    className="relative w-full h-80"
                   >
                     <Image src={item.image || "/placeholder.svg"} alt={item.title} fill className="object-cover" />
                   </motion.div>
