@@ -7,7 +7,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    details: "threeclapssstudio@gmail.com",
+    details: "Info@threeclapsstudio.com",
     subtext: "Response within 24 hours",
   },
   {
