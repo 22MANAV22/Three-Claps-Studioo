@@ -57,7 +57,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3 text-foreground/60 text-sm hover:text-accent-gold transition-colors cursor-pointer">
                 <Phone size={16} />
-                <span>+1 (555) 123-4567</span>
+                <span>+44 7728 921218 , +44 7440 580565 </span>
               </div>
               <div className="flex items-center gap-3 text-foreground/60 text-sm hover:text-accent-gold transition-colors cursor-pointer">
                 <MapPin size={16} />

@@ -13,7 +13,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    details: "+1 (555) 123-4567",
+    details: "+44 7728 921218 ,+44 7440 580565 ",
     subtext: "Mon-Fri, 9am-6pm PST",
   },
   {

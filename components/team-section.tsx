@@ -7,12 +7,12 @@ import { StaggerContainer, StaggerChild } from "./motion-components"
 const teamMembers = [
   {
     name: "Iqbal Singh Kamboj",
-    role: "Creative Director",
+    role: "Director",
     image: "/gallery/iqbal.png",
   },
   {
-    name: "Marcus Webb",
-    role: "Lead Cinematographer",
+    name: "Harjit Kamboj",
+    role: "Director",
     image: "/placeholder.svg?key=webb1",
   },
   {

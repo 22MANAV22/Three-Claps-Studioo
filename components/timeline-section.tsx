@@ -4,35 +4,35 @@ import { motion } from "framer-motion"
 
 const milestones = [
   {
-    year: "2010",
+    year: "2020",
     title: "Foundation",
-    description: "LUMINA Studios established with a vision to revolutionize premium film production.",
+    description: "Three Claps Studios established with a vision to revolutionize premium film production.",
   },
-  {
-    year: "2013",
-    title: "First Award",
-    description: "Won Best Director award at prestigious international film festival.",
-  },
-  {
-    year: "2016",
-    title: "Global Reach",
-    description: "Expanded operations to include offices in New York, London, and Tokyo.",
-  },
-  {
-    year: "2019",
-    title: "Industry Recognition",
-    description: "Named one of the top 10 production studios globally by leading film journals.",
-  },
-  {
-    year: "2023",
-    title: "Innovation Hub",
-    description: "Launched cutting-edge virtual production and AI-assisted editing facilities.",
-  },
-  {
-    year: "2025",
-    title: "Future Vision",
-    description: "Pioneering next-generation immersive storytelling experiences.",
-  },
+  // {
+  //   year: "2013",
+  //   title: "First Award",
+  //   description: "Won Best Director award at prestigious international film festival.",
+  // },
+  // {
+  //   year: "2016",
+  //   title: "Global Reach",
+  //   description: "Expanded operations to include offices in New York, London, and Tokyo.",
+  // },
+  // {
+  //   year: "2019",
+  //   title: "Industry Recognition",
+  //   description: "Named one of the top 10 production studios globally by leading film journals.",
+  // },
+  // {
+  //   year: "2023",
+  //   title: "Innovation Hub",
+  //   description: "Launched cutting-edge virtual production and AI-assisted editing facilities.",
+  // },
+  // {
+  //   year: "2025",
+  //   title: "Future Vision",
+  //   description: "Pioneering next-generation immersive storytelling experiences.",
+  // },
 ]
 
 export function TimelineSection() {

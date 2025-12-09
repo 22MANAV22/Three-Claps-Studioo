@@ -62,6 +62,24 @@ export function GalleryGrid() {
       category: "Experimental",
       image: "/gallery/8.png",
     },
+    {
+      id: 9,
+      title: "Creative Vision",
+      category: "Experimental",
+      image: "/gallery/9.png",
+    },
+    {
+      id: 10,
+      title: "Creative Vision",
+      category: "Experimental",
+      image: "/gallery/10.png",
+    },
+    {
+      id: 11,
+      title: "Creative Vision",
+      category: "Experimental",
+      image: "/gallery/11.jpg",
+    },
   ]
 
   const [hoveredId, setHoveredId] = useState<number | null>(null)
