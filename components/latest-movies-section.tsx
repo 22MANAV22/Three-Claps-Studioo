@@ -6,22 +6,25 @@ import { FadeInUp, StaggerContainer, StaggerChild } from "./motion-components"
 const movies = [
   {
     id: 1,
-    title: "JIGREE",
+    title: "JIGRI",
     category: "Feature Film",
-    image: "/gallery/jigree.jpeg",
+    images: [
+      "/gallery/jigree.jpeg",
+    ],
   },
   {
     id: 2,
     title: "Kalyuga - Tales of Modern Minds",
     category: "Webseries",
-    image: "/gallery/kalyug.png",
+    images: [
+      "/gallery/kalyug-1.png",
+      "/gallery/kalyug-2.png",
+      "/gallery/kalyug-3.png",
+      "/gallery/kalyug-44.png",
+      "/gallery/kalyug-5.png",
+      "/gallery/kalyug-6.png",
+    ],
   },
-  // {
-  //   id: 3,
-  //   title: "Silent Echoes",
-  //   category: "Short Film",
-  //   image: "/minimalist-film-poster-dark.jpg",
-  // },
 ]
 
 export function LatestMoviesSection() {
@@ -38,8 +41,12 @@ export function LatestMoviesSection() {
               transition={{ duration: 0.8, ease: "easeOut" }}
               className="h-[1px] bg-gradient-to-r from-transparent via-accent-gold to-transparent mb-6 mx-auto max-w-xs"
             />
-            <h2 className="text-5xl md:text-6xl font-light tracking-wider mb-4 text-white">Latest Productions</h2>
-            <p className="text-foreground/60 text-lg font-light">Our most recent cinematic masterpieces</p>
+            <h2 className="text-5xl md:text-6xl font-light tracking-wider mb-4 text-white">
+              Latest Productions
+            </h2>
+            <p className="text-foreground/60 text-lg font-light">
+              Our most recent cinematic masterpieces
+            </p>
           </div>
         </FadeInUp>
 
@@ -53,13 +60,27 @@ export function LatestMoviesSection() {
                   whileHover={{ y: -10 }}
                   transition={{ duration: 0.3 }}
                 >
+                  {/* Poster */}
                   <div className="relative rounded-2xl overflow-hidden bg-background-secondary aspect-[2/3] mb-4">
-                    {/* Image Container */}
-                    <motion.img
-                      src={movie.image}
-                      alt={movie.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
+                    
+                    {/* Image Swap Container */}
+                    <div className="relative w-full h-full">
+                      {/* Primary Image */}
+                      <motion.img
+                        src={movie.images[0]}
+                        alt={movie.title}
+                        className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 group-hover:opacity-0"
+                      />
+
+                      {/* Hover Image */}
+                      {movie.images[1] && (
+                        <motion.img
+                          src={movie.images[1]}
+                          alt={`${movie.title} hover`}
+                          className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                        />
+                      )}
+                    </div>
 
                     {/* Overlay on Hover */}
                     <motion.div
@@ -76,7 +97,7 @@ export function LatestMoviesSection() {
                       </motion.button>
                     </motion.div>
 
-                    {/* Glow effect */}
+                    {/* Glow Effect */}
                     <div
                       className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
                       style={{
@@ -85,7 +106,7 @@ export function LatestMoviesSection() {
                     />
                   </div>
 
-                  {/* Title and Category */}
+                  {/* Title & Category */}
                   <div>
                     <p className="text-sm text-accent-gold font-light tracking-widest uppercase mb-2">
                       {movie.category}
