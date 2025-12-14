@@ -24,19 +24,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/three-claps-logo.jpg",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/three-claps-logo.jpg",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: "/three-claps-logo.jpg",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/three-claps-logo.jpg",
   },
   openGraph: {
     type: "website",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     description: "Crafting cinematic excellence through premium production and storytelling",
     images: [
       {
-        url: "/luxury-film-poster-dramatic.jpg",
+        url: "/three-claps-logo.jpg",
         width: 1200,
         height: 630,
         alt: "THREE CLAPS Studios",
