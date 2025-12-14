@@ -12,6 +12,7 @@ const movies = [
     category: "Feature Film",
     images: [
       "/gallery/jigree.jpeg",
+      "/gallery/jigree.jpeg",
     ],
   },
   {
