@@ -6,9 +6,9 @@ import { FadeInUp, StaggerContainer, StaggerChild } from "./motion-components"
 const movies = [
   {
     id: 1,
-    title: "JIGRI",
+    title: "JIGREE",
     category: "Feature Film",
-    image: "/luxury-film-poster-dramatic.jpg",
+    image: "/gallery/public/gallery/ChatGPT Image Dec 14, 2025, 12_58_38 PM.png",
   },
   {
     id: 2,
