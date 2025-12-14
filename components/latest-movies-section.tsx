@@ -8,13 +8,13 @@ const movies = [
     id: 1,
     title: "JIGREE",
     category: "Feature Film",
-    image: "/gallery/ChatGPT Image Dec 14, 2025, 12_58_38 PM.png",
+    image: "/gallery/jigree.jpeg",
   },
   {
     id: 2,
     title: "Kalyuga - Tales of Modern Minds",
     category: "Webseries",
-    image: "/dark-cinematic-poster-neon.jpg",
+    image: "/gallery/kalyug.png",
   },
   // {
   //   id: 3,
